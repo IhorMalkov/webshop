@@ -1,0 +1,6 @@
+.video-elemnt{
+    width: 100vw;
+    object-fit: fill;
+    height: 75vh;
+    border-radius: 30%;
+}
