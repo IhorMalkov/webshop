@@ -4,11 +4,11 @@ import { PiShoppingCartSimple } from "react-icons/pi";
 
 const Header = () => {
   return (
-    <>
-        <Link to='/'>Start Shopping</Link>
+    <div className="flex items-center justify-between">
+        <Link className="ml-[30px]" to='/'>Start Shopping</Link>
         <Link to='/about'>About</Link>
-        <Link to='/cart'><PiShoppingCartSimple /></Link>
-    </>
+        <Link className="mr-[30px]" to='/cart'><PiShoppingCartSimple /></Link>
+    </div>
   )
 }
 

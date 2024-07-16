@@ -8,13 +8,13 @@ import About from './pages/About'
 
 const App = () => {
   return (
-      <div className="flex flex-col min-h-screen overflow-hidden  m-4">
-        <header>
-          <nav className='flex items-center justify-around mb-10 p-3'> 
-          <Header />
-        </nav>
-        </header>
-        <main className='flex flex-grow-1'>
+      <div>
+          <header className="mb-[60px] bg-gray-200 h-[60px] flex items-center justify-center">
+              <nav className="w-full">
+                  <Header/>
+              </nav>
+          </header>
+          <main>
         <Routes>
           <Route path='/' element={<Shop/>}></Route>
           <Route path='/cart' element={<Cart/>}></Route>
