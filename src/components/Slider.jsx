@@ -20,9 +20,6 @@ function Slider() {
                 slidesPerView={3.6}
             >
                 <SwiperSlide className="cursor-pointer ml-[30px]"><img src={productivitycard}/></SwiperSlide>
-                <SwiperSlide><img src={productivitycard}/></SwiperSlide>
-                <SwiperSlide><img src={productivitycard}/></SwiperSlide>
-                <SwiperSlide><img src={productivitycard}/></SwiperSlide>
             </Swiper>
         </div>
     );
