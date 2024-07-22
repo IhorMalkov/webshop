@@ -9,7 +9,7 @@ import About from './pages/About'
 const App = () => {
   return (
       <div>
-          <header className="mb-[60px] bg-gray-200 h-[60px] flex items-center justify-center">
+          <header className="flex items-center justify-between mb-[60px] bg-gray-200 h-[60px] pl-[30px] pr-[30px]">
               <nav className="w-full">
                   <Header/>
               </nav>
