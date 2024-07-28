@@ -5,7 +5,7 @@ import Slider from "../components/Slider";
 function Shop() {
   return (
       <div>
-          <div className="flex justify-between items-center ml-[30px] mr-[30px]">
+          <div className="flex justify-between items-center">
               <h1>iPad</h1>
               <h2>Touch, draw and type <br/> on one magical device.</h2>
           </div>

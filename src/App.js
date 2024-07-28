@@ -14,7 +14,7 @@ const App = () => {
                   <Header/>
               </nav>
           </header>
-          <main>
+          <main className="ml-[30px] mr-[30px]">
         <Routes>
           <Route path='/' element={<Shop/>}></Route>
           <Route path='/cart' element={<Cart/>}></Route>
