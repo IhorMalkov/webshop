@@ -1,6 +1,7 @@
 import React from 'react'
 import  video from "../img/iPadVideo.mp4"
-import Slider from "../components/Slider";
+import SliderCards from "../components/SliderCards";
+import Productslider from "../components/Productslider";
 
 function Shop() {
   return (
@@ -12,7 +13,8 @@ function Shop() {
           <video autoPlay muted className='video-element'>
                   <source src={video} type='video/mp4'></source>
           </video>
-          <Slider></Slider>
+          <SliderCards></SliderCards>
+          <Productslider></Productslider>
       </div>
   )
 }
