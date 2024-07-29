@@ -48,7 +48,7 @@ function SliderCards() {
         alert("It will be pop up");
     }
     return (
-        <div>
+        <div className="mt-[90px]">
             <div>
                 <h1>Get to know iPad.</h1>
             </div>

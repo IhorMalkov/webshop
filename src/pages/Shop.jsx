@@ -6,7 +6,7 @@ import Productslider from "../components/Productslider";
 function Shop() {
   return (
       <div>
-          <div className="flex justify-between items-center">
+          <div className="flex justify-between items-center mb-[35px]">
               <h1>iPad</h1>
               <h2>Touch, draw and type <br/> on one magical device.</h2>
           </div>
@@ -14,7 +14,6 @@ function Shop() {
                   <source src={video} type='video/mp4'></source>
           </video>
           <SliderCards></SliderCards>
-          <Productslider></Productslider>
       </div>
   )
 }

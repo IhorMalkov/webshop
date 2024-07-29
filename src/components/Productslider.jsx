@@ -40,7 +40,8 @@ const slides = [
 
 function Productslider() {
     return (
-        <div>
+        <div className="mt-[90px] bg-gray-100 w-[100%]">
+            <h1>Explore the Lineup.</h1>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 navigation
@@ -52,10 +53,12 @@ function Productslider() {
                 {slides.map((slide) => (
                     <SwiperSlide key={slide.id} className="flex">
                         <div className="flex flex-col items-center text-center p-4 max-w-[300px] w-full">
-                            <img src={slide.img} alt={slide.title} className="mb-4"/>
+                            <img src={slide.img} alt={slide.title} className="h-[260px] object-fit mb-4"
+                            />
                             <p className="text-orange-400 mb-2">New</p>
                             <h3 className="font-bold mb-2">{slide.title}</h3>
                             <p className="mb-4">{slide.info}</p>
+                            <p className="mb-4 font-bold">{slide.prices}</p>
                             <div className="flex gap-[60px]">
                                 <button className="p-2 bg-blue-600 text-white rounded-full">Add to Cart</button>
                                 <button className="p-2 bg-blue-500 text-white rounded-full">Learn more</button>
