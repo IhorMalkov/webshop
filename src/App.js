@@ -22,7 +22,6 @@ const App = () => {
           <Route path='/about' element={<About/>}></Route>
         </Routes>
         </main>
-          <Productslider></Productslider>
           <footer>
           <Footer/>
         </footer>

@@ -74,7 +74,7 @@ function Productslider() {
                             <p className="mb-4">{item.info}</p>
                             <p className="mb-4 font-bold">{item.prices}</p>
                             <div className="flex gap-[60px]">
-                                <button onClick={() => handleAddToCart(item)} className="p-2 bg-blue-600 text-white rounded-full">Add to Cart<span></span></button>
+                                <button onClick={() => handleAddToCart(item)} className="p-2 bg-blue-600 text-white rounded-full">Add to Cart</button>
                                 <button className="p-2 bg-blue-500 text-white rounded-full">Learn more</button>
                             </div>
                         </div>

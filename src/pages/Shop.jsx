@@ -1,6 +1,7 @@
 import React from 'react'
 import  video from "../img/iPadVideo.mp4"
 import SliderCards from "../components/SliderCards";
+import Productslider from "../components/Productslider";
 
 function Shop() {
   return (
@@ -13,6 +14,7 @@ function Shop() {
                   <source src={video} type='video/mp4'></source>
           </video>
           <SliderCards></SliderCards>
+          <Productslider></Productslider>
       </div>
   )
 }
