@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex items-center justify-between">
           <Link className="ml" to='/'>Start Shopping</Link>
           <Link to='/about'>About</Link>
-        <Link className="mr-[30px]" to='/cart'><PiShoppingCartSimple /></Link>
+        <Link className="mr-[30px]" to='/cart'><PiShoppingCartSimple /> <span></span></Link>
     </div>
   )
 }
