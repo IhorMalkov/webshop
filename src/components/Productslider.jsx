@@ -17,6 +17,7 @@ const product = [
         prices: 'From $1399 or $119.76/mo. for 12 mos. at 4.99 % APR',
         id: 1,
         price: 1399,
+        totalPrice: 0,
         quantity: 0
     },
     {
@@ -26,6 +27,7 @@ const product = [
         prices: 'From $799 or $68.40/mo. for 12 mos. at 4.99 % APR‡',
         id: 2,
         price: 799,
+        totalPrice: 0,
         quantity: 0
     },
     {
@@ -35,6 +37,7 @@ const product = [
         prices: 'From $499 or $42.72/mo. for 12 mos. at 4.99 % APR‡',
         id: 3,
         price: 499,
+        totalPrice: 0,
         quantity: 0
     },
     {
@@ -44,6 +47,7 @@ const product = [
         prices: 'From $679 or $58.12/mo. for 12 mos. at 4.99 % APR‡',
         id: 4,
         price: 679,
+        totalPrice: 0,
         quantity: 0
     }
 ];
