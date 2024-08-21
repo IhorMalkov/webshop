@@ -17,14 +17,14 @@ const App = () => {
           </header>
           <main className="ml-[30px] mr-[30px]">
               <Routes>
-          <Route path='/' element={<Shop/>}></Route>
-          <Route path='/cart' element={<Cart/>}></Route>
-          <Route path='/about' element={<About/>}></Route>
-        </Routes>
-        </main>
+                  <Route path='/' element={<Shop/>}></Route>
+                  <Route path='/cart' element={<Cart/>}></Route>
+                  <Route path='/about' element={<About/>}></Route>
+              </Routes>
+          </main>
           <footer>
-          <Footer/>
-        </footer>
+              <Footer/>
+          </footer>
       </div>
   );
 }
